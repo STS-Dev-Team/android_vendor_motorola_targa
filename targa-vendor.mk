@@ -28,4 +28,4 @@ PRODUCT_COPY_FILES := \
 #DEVICE_PACKAGE_OVERLAYS := vendor/motorola/targa/overlay
 
 $(call inherit-product, vendor/motorola/targa/targa-vendor-blobs.mk)
-$(call inherit-product, vendor/motorola/targa/ducati-full.mk)
+

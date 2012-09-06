@@ -17,3 +17,7 @@
 
 $(call inherit-product, vendor/motorola/targa/targa-vendor-blobs.mk)
 $(call inherit-product, vendor/motorola/common/common-vendor.mk)
+
+# MotoSimUI
+PRODUCT_PACKAGES += MotoSimUiHelper
+

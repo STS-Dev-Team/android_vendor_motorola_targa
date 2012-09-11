@@ -16,5 +16,4 @@ $(VENDOR_BLOB_FOLDER)/vendor/lib/libsrv_init_SGX540_120.so:/system/vendor/lib/li
 $(VENDOR_BLOB_FOLDER)/vendor/lib/libsrv_um_SGX540_120.so:/system/vendor/lib/libsrv_um_SGX540_120.so \
 $(VENDOR_BLOB_FOLDER)/vendor/lib/libusc_SGX540_120.so:/system/vendor/lib/libusc_SGX540_120.so \
 $(VENDOR_BLOB_FOLDER)/vendor/lib/hw/gralloc.omap4.so:/system/vendor/lib/hw/gralloc.omap4.so \
-$(VENDOR_BLOB_FOLDER)/etc/powervr.ini:/system/etc/powervr.ini \
-
+$(VENDOR_BLOB_FOLDER)/etc/powervr.ini:/system/etc/powervr.ini

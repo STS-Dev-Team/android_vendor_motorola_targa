@@ -18,14 +18,12 @@ $(VENDOR_BLOB_FOLDER)/bin/dund:/system/bin/dund \
 $(VENDOR_BLOB_FOLDER)/bin/ecckeyd:/system/bin/ecckeyd \
 $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
-$(VENDOR_BLOB_FOLDER)/bin/JuniperVPNTools:/system/bin/JuniperVPNTools \
 $(VENDOR_BLOB_FOLDER)/bin/logcatd:/system/bin/logcatd \
 $(VENDOR_BLOB_FOLDER)/bin/logcatd-blan:/system/bin/logcatd-blan \
 $(VENDOR_BLOB_FOLDER)/bin/modemlog:/system/bin/modemlog \
 $(VENDOR_BLOB_FOLDER)/bin/mot_boot_mode:/system/bin/mot_boot_mode \
 $(VENDOR_BLOB_FOLDER)/bin/motobox:/system/bin/motobox \
 $(VENDOR_BLOB_FOLDER)/bin/mount_cdrom.sh:/system/bin/mount_cdrom.sh \
-$(VENDOR_BLOB_FOLDER)/bin/pppd-ril:/system/bin/pppd-ril \
 $(VENDOR_BLOB_FOLDER)/bin/secclkd:/system/bin/secclkd \
 $(VENDOR_BLOB_FOLDER)/bin/startup_smc.sh:/system/bin/startup_smc.sh \
 $(VENDOR_BLOB_FOLDER)/bin/tcmd:/system/bin/tcmd \
@@ -33,8 +31,7 @@ $(VENDOR_BLOB_FOLDER)/bin/tcmdhelp:/system/bin/tcmdhelp \
 $(VENDOR_BLOB_FOLDER)/bin/testpppd:/system/bin/testpppd \
 $(VENDOR_BLOB_FOLDER)/bin/tty2ttyd:/system/bin/tty2ttyd \
 $(VENDOR_BLOB_FOLDER)/bin/usbd:/system/bin/usbd \
-$(VENDOR_BLOB_FOLDER)/bin/whisperd:/system/bin/whisperd \
-$(VENDOR_BLOB_FOLDER)/bin/vpnclientpm:/system/bin/vpnclientpm
+$(VENDOR_BLOB_FOLDER)/bin/whisperd:/system/bin/whisperd
 
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -53,6 +50,7 @@ $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ip
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 $(VENDOR_BLOB_FOLDER)/etc/supportedlocales.conf:/system/etc/supportedlocales.conf
 
+
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 $(VENDOR_BLOB_FOLDER)/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
@@ -66,11 +64,14 @@ $(VENDOR_BLOB_FOLDER)/etc/security/suplcerts.bks:system/etc/security/suplcerts.b
 $(VENDOR_BLOB_FOLDER)/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
 $(VENDOR_BLOB_FOLDER)/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml
 
+# webtop
+PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/usr/idc/evfwd.idc:system/usr/idc/evfwd.idc \
+$(VENDOR_BLOB_FOLDER)/usr/keychars/evfwd.kcm:system/usr/keychars/evfwd.kcm \
+$(VENDOR_BLOB_FOLDER)/usr/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl
 
 # system/usr
 PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/usr/bin/gki_pd_notifier:system/usr/bin/gki_pd_notifier \
-$(VENDOR_BLOB_FOLDER)/usr/bin/panic_daemon:system/usr/bin/panic_daemon \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -87,29 +88,22 @@ $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/p
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
-
-# webtop
-PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/usr/idc/evfwd.idc:system/usr/idc/evfwd.idc \
-$(VENDOR_BLOB_FOLDER)/usr/keychars/evfwd.kcm:system/usr/keychars/evfwd.kcm \
-$(VENDOR_BLOB_FOLDER)/usr/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl
-
-# system/usr/*
-PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+$(VENDOR_BLOB_FOLDER)/usr/bin/gki_pd_notifier:system/usr/bin/gki_pd_notifier \
+$(VENDOR_BLOB_FOLDER)/usr/bin/panic_daemon:system/usr/bin/panic_daemon \
 $(VENDOR_BLOB_FOLDER)/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \
 $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
 $(VENDOR_BLOB_FOLDER)/usr/keychars/omap4-keypad.kcm:system/usr/keychars/omap4-keypad.kcm \
 $(VENDOR_BLOB_FOLDER)/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
 $(VENDOR_BLOB_FOLDER)/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
-$(VENDOR_BLOB_FOLDER)/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/atmxt-i2c.kl:system/usr/keylayout/atmxt-i2c.kl \
+$(VENDOR_BLOB_FOLDER)/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl
 
-# system/lib
+# include lib
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/libadkutils.so:/system/lib/libadkutils.so \
 $(VENDOR_BLOB_FOLDER)/lib/libamcm.so:/system/lib/libamcm.so \
@@ -121,6 +115,7 @@ $(VENDOR_BLOB_FOLDER)/lib/libcapsjava.so:/system/lib/libcapsjava.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt.so:/system/lib/libdataencrypt.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_tpa.so:/system/lib/libdataencrypt_tpa.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_utils.so:/system/lib/libdataencrypt_utils.so \
+$(VENDOR_BLOB_FOLDER)/lib/libdevicestats.so:/system/lib/libdevicestats.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdlnahttpjni.so:/system/lib/libdlnahttpjni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdlnajni.so:/system/lib/libdlnajni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdlnaprofileparser.so:/system/lib/libdlnaprofileparser.so \
@@ -141,7 +136,6 @@ $(VENDOR_BLOB_FOLDER)/lib/libmot_bluetooth_jni.so:/system/lib/libmot_bluetooth_j
 $(VENDOR_BLOB_FOLDER)/lib/libmotdrm1.so:/system/lib/libmotdrm1.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
-$(VENDOR_BLOB_FOLDER)/lib/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmss.so:/system/lib/libmss.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmss.so.sig:/system/lib/libmss.so.sig \
@@ -155,8 +149,6 @@ $(VENDOR_BLOB_FOLDER)/lib/libpkip.so:/system/lib/libpkip.so \
 $(VENDOR_BLOB_FOLDER)/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 $(VENDOR_BLOB_FOLDER)/lib/libprovlib.so:/system/lib/libprovlib.so \
 $(VENDOR_BLOB_FOLDER)/lib/libquicksec.so:/system/lib/libquicksec.so \
-$(VENDOR_BLOB_FOLDER)/lib/librds_util.so:/system/lib/librds_util.so \
-$(VENDOR_BLOB_FOLDER)/lib/libril_rds.so:/system/lib/libril_rds.so \
 $(VENDOR_BLOB_FOLDER)/lib/libscalado.so:/system/lib/libscalado.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsensorhub_jni.so:/system/lib/libsensorhub_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsmapi.so:/system/lib/libsmapi.so \
@@ -172,13 +164,13 @@ $(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 $(VENDOR_BLOB_FOLDER)/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 $(VENDOR_BLOB_FOLDER)/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
-$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so
 
 # RIL files
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/bin/base64:/system/bin/base64 \
 $(VENDOR_BLOB_FOLDER)/bin/extract-embedded-files:/system/bin/extract-embedded-files \
 $(VENDOR_BLOB_FOLDER)/bin/mm-wrigley-qc-dump.sh:/system/bin/mm-wrigley-qc-dump.sh \
+$(VENDOR_BLOB_FOLDER)/bin/pppd-ril:/system/bin/pppd-ril \
 $(VENDOR_BLOB_FOLDER)/bin/vril-dump:/system/bin/vril-dump \
 $(VENDOR_BLOB_FOLDER)/bin/wrigley-diag.sh:/system/bin/wrigley-diag.sh \
 $(VENDOR_BLOB_FOLDER)/bin/wrigley-dump.sh:/system/bin/wrigley-dump.sh \
@@ -186,14 +178,17 @@ $(VENDOR_BLOB_FOLDER)/bin/wrigley-fetch-mpr.sh:/system/bin/wrigley-fetch-mpr.sh 
 $(VENDOR_BLOB_FOLDER)/lib/libbabysit.so:/system/lib/libbabysit.so \
 $(VENDOR_BLOB_FOLDER)/lib/libb64.so:/system/lib/libb64.so \
 $(VENDOR_BLOB_FOLDER)/lib/lib-mot-lte-ril.so:/system/lib/lib-mot-lte-ril.so \
+$(VENDOR_BLOB_FOLDER)/lib/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmoto_nwif_ril.so:/system/lib/libmoto_nwif_ril.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmoto_qmi_ril.so:/system/lib/libmoto_qmi_ril.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmoto_ril.so:/system/lib/libmoto_ril.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmotdb.so:/system/lib/libmotdb.so \
+$(VENDOR_BLOB_FOLDER)/lib/librds_util.so:/system/lib/librds_util.so \
+$(VENDOR_BLOB_FOLDER)/lib/libril_rds.so:/system/lib/libril_rds.so \
 $(VENDOR_BLOB_FOLDER)/lib/moto-ril-multimode.so:/system/lib/moto-ril-multimode.so \
 $(VENDOR_BLOB_FOLDER)/lib/libims_client_jni.so:/system/lib/libims_client_jni.so
 
-# system/lib/hw
+# include lib/hw
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.targa.so:/system/lib/hw/gps.targa.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/lights.targa.so:/system/lib/hw/lights.targa.so \
@@ -203,13 +198,6 @@ $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.targa.so:/system/lib/hw/sensors.targa.so
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/xbin/drm1_func_test:/system/xbin/drm1_func_test
 
-# wmv
-PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-$(VENDOR_BLOB_FOLDER)/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
-$(VENDOR_BLOB_FOLDER)/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-$(VENDOR_BLOB_FOLDER)/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so
-
 # Load TCMD libs
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
@@ -217,3 +205,4 @@ $(VENDOR_BLOB_FOLDER)/lib/libfm_stack.so:/system/lib/libfm_stack.so \
 $(VENDOR_BLOB_FOLDER)/lib/libfmchr.so:/system/lib/libfmchr.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmcphal.so:/system/lib/libmcphal.so \
 $(VENDOR_BLOB_FOLDER)/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so
+

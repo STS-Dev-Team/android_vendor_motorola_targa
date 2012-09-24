@@ -1,0 +1,6 @@
+<whitelist>
+     <publisher name="com.motorola.contextual.actions"/>
+     <publisher name="com.motorola.contextual.smartrules"/>
+     <publisher name="com.motorola.contextual.Motion"/>
+     <publisher name="com.motorola.contextual.fw"/>
+</whitelist>

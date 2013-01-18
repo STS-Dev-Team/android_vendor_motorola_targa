@@ -124,7 +124,6 @@ $(VENDOR_BLOB_FOLDER)/lib/libquicksec.so:/system/lib/libquicksec.so \
 $(VENDOR_BLOB_FOLDER)/lib/libscalado.so:/system/lib/libscalado.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsensorhub_jni.so:/system/lib/libsensorhub_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsmapi.so:/system/lib/libsmapi.so \
-$(VENDOR_BLOB_FOLDER)/lib/libtf_crypto_sst.so:/system/lib/libtf_crypto_sst.so \
 $(VENDOR_BLOB_FOLDER)/lib/libtpa.so:/system/lib/libtpa.so \
 $(VENDOR_BLOB_FOLDER)/lib/libtpa_core.so:/system/lib/libtpa_core.so \
 $(VENDOR_BLOB_FOLDER)/lib/libui3d.so:/system/lib/libui3d.so \

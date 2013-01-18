@@ -10,7 +10,6 @@ $(VENDOR_BLOB_FOLDER)/bin/btcmd:/system/bin/btcmd \
 $(VENDOR_BLOB_FOLDER)/bin/bthelp:/system/bin/bthelp \
 $(VENDOR_BLOB_FOLDER)/bin/bttest_mot:/system/bin/bttest_mot \
 $(VENDOR_BLOB_FOLDER)/bin/bugtogo.sh:/system/bin/bugtogo.sh \
-$(VENDOR_BLOB_FOLDER)/bin/charge_only_mode:/system/bin/charge_only_mode \
 $(VENDOR_BLOB_FOLDER)/bin/chat-ril:/system/bin/chat-ril \
 $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
 $(VENDOR_BLOB_FOLDER)/bin/dumpe2fs:/system/bin/dumpe2fs \
@@ -20,9 +19,6 @@ $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
 $(VENDOR_BLOB_FOLDER)/bin/logcatd:/system/bin/logcatd \
 $(VENDOR_BLOB_FOLDER)/bin/logcatd-blan:/system/bin/logcatd-blan \
-$(VENDOR_BLOB_FOLDER)/bin/modemlog:/system/bin/modemlog \
-$(VENDOR_BLOB_FOLDER)/bin/mot_boot_mode:/system/bin/mot_boot_mode \
-$(VENDOR_BLOB_FOLDER)/bin/motobox:/system/bin/motobox \
 $(VENDOR_BLOB_FOLDER)/bin/mount_cdrom.sh:/system/bin/mount_cdrom.sh \
 $(VENDOR_BLOB_FOLDER)/bin/secclkd:/system/bin/secclkd \
 $(VENDOR_BLOB_FOLDER)/bin/startup_smc.sh:/system/bin/startup_smc.sh \
@@ -30,7 +26,6 @@ $(VENDOR_BLOB_FOLDER)/bin/tcmd:/system/bin/tcmd \
 $(VENDOR_BLOB_FOLDER)/bin/tcmdhelp:/system/bin/tcmdhelp \
 $(VENDOR_BLOB_FOLDER)/bin/testpppd:/system/bin/testpppd \
 $(VENDOR_BLOB_FOLDER)/bin/tty2ttyd:/system/bin/tty2ttyd \
-$(VENDOR_BLOB_FOLDER)/bin/usbd:/system/bin/usbd \
 $(VENDOR_BLOB_FOLDER)/bin/whisperd:/system/bin/whisperd
 
 # system/etc

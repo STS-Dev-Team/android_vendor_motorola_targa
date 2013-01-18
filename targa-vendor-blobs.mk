@@ -40,7 +40,6 @@ $(VENDOR_BLOB_FOLDER)/etc/backup_targets.csv:/system/etc/backup_targets.csv \
 $(VENDOR_BLOB_FOLDER)/etc/btpan.conf:/system/etc/btpan.conf \
 $(VENDOR_BLOB_FOLDER)/etc/ecryptfs.tab:/system/etc/ecryptfs.tab \
 $(VENDOR_BLOB_FOLDER)/etc/encrypt.tab:/system/etc/encrypt.tab \
-$(VENDOR_BLOB_FOLDER)/etc/event-log-tags:/system/etc/event-log-tags \
 $(VENDOR_BLOB_FOLDER)/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
 $(VENDOR_BLOB_FOLDER)/etc/opl.dat.enc:/system/etc/opl.dat.enc \
 $(VENDOR_BLOB_FOLDER)/etc/priority_notifications_config.xml:/system/etc/priority_notifications_config.xml \

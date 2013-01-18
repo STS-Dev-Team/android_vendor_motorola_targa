@@ -66,23 +66,6 @@ $(VENDOR_BLOB_FOLDER)/etc/permissions/com.verizon.hardware.telephony.lte.xml:sys
 
 # system/usr
 PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
 $(VENDOR_BLOB_FOLDER)/usr/bin/gki_pd_notifier:system/usr/bin/gki_pd_notifier \
 $(VENDOR_BLOB_FOLDER)/usr/bin/panic_daemon:system/usr/bin/panic_daemon \
 $(VENDOR_BLOB_FOLDER)/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \

@@ -155,7 +155,6 @@ $(VENDOR_BLOB_FOLDER)/lib/libims_client_jni.so:/system/lib/libims_client_jni.so
 # include lib/hw
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.targa.so:/system/lib/hw/gps.targa.so \
-$(VENDOR_BLOB_FOLDER)/lib/hw/lights.targa.so:/system/lib/hw/lights.targa.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.targa.so:/system/lib/hw/sensors.targa.so
 
 # system/xbin

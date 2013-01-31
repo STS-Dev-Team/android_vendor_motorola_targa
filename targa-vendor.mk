@@ -16,8 +16,4 @@
 #DEVICE_PACKAGE_OVERLAYS := vendor/motorola/targa/overlay
 
 $(call inherit-product, vendor/motorola/targa/targa-vendor-blobs.mk)
-$(call inherit-product, vendor/motorola/common/common-vendor.mk)
-
-# MotoSimUI
-#PRODUCT_PACKAGES += MotoSimUiHelper
-
+$(call inherit-product, vendor/motorola/omap4-common/common-vendor.mk)

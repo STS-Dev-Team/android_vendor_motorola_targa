@@ -10,9 +10,6 @@
     <vsuite_feature_playList_picker_intent value="android.intent.action.PICK"/>
     <vsuite_feature_wakelock_use_on_after_release value="true"/>
     <vsuite_feature_signal_strength_custom value="true"/>
-    <vsuite_feature_phonebook_rebuild_timeout value="5000"/>
+    <vsuite_feature_phonebook_rebuild_timeout value="10000"/>
+    <vsuite_feature_read_googleplay_playlists_enabled value="true"/>
 </config>
-
-
-
-

@@ -1,6 +1,0 @@
-# Commands to move files on a BOTA upgrade associated with Messaging package.
-# Stable 6 -> HSS6
-com.motorola.messaging:com.motorola.blur.conversations
-      shared_prefs/MsgDynamicSettings.xml
-      shared_prefs/com.motorola.blur.conversations_preferences.xml
-      shared_prefs/_has_set_default_values.xml

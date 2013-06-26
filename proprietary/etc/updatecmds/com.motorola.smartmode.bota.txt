@@ -1,7 +1,0 @@
-# Migrate the prefs from the old package name
-com.motorola.smartmode:com.motorola.smartdock
-    shared_prefs
-
-# Migrate the database from the old package name
-com.motorola.smartmode:com.motorola.smartdock
-    databases

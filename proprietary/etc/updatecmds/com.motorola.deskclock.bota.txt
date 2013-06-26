@@ -1,6 +1,0 @@
-# Migrate data from the old pacakge name to new
-com.android.deskclock:com.motorola.blur.alarmclock
-    databases
-
-com.android.deskclock:com.motorola.blur.alarmclock
-    shared_prefs

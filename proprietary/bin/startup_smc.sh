@@ -3,25 +3,6 @@
 export PATH=/system/bin:$PATH
 export LD_LIBRARY_PATH=/system/lib:$LD_LIBRARY_PATH
 
-################################################
-# Start up SMC only if ro.service.start.smc=1  #
-################################################
-USE_SMC=0
-USE_SMC=`getprop ro.service.start.smc`
-echo "USE_SMC set to: $USE_SMC "
-
-if [ ! -n "$USE_SMC" ]
-then
-    echo "USE_SMC is undefined. Script exiting without starting SMC."
-    exit
-else
-    if [ $USE_SMC -ne "1" ]
-    then
-        echo "USE_SMC[$USE_SMC] is not set to 1. Script exiting without starting SMC."
-        exit
-    fi
-fi
-
 ###############################################################
 # To start up SMC for TPAPI                                   #
 #    - verify /pds/security directory exists                  #

@@ -1,8 +1,0 @@
-# Commands to move files associated with task packages.
-# Merge content provider
-com.motorola.tasks:com.motorola.blur.tasks
-    databases
-
-# Merge shared preferences
-com.motorola.tasks:com.motorola.blur.tasks
-    shared_prefs

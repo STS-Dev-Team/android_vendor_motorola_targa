@@ -1,6 +1,0 @@
-# Migrate data from the old pacakge name to new
-com.android.providers.contacts:com.motorola.blur.providers.contacts
-    databases
-
-com.android.providers.contacts:com.motorola.blur.providers.contacts
-    shared_prefs

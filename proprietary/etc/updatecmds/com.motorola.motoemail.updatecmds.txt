@@ -1,0 +1,10 @@
+# Migrate data to the new package from the old one
+com.motorola.motoemail:com.motorola.hux.sncclient
+    databases
+
+com.motorola.motoemail:com.motorola.hux.sncclient
+    shared_prefs
+
+com.motorola.motoemail:com.motorola.hux.sncclient
+    files
+

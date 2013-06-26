@@ -54,6 +54,10 @@
         <group gid="log" />
     </permission>
 
+    <permission name="android.permission.READ_EXTERNAL_STORAGE" >
+        <group gid="sdcard_r" />
+    </permission>
+
     <permission name="android.permission.WRITE_EXTERNAL_STORAGE" >
         <group gid="sdcard_rw" />
     </permission>
@@ -69,12 +73,6 @@
     <permission name="android.permission.NET_ADMIN" >
         <group gid="net_admin" />
     </permission>
-
-    <!-- BEGIN MOTO, e3361c, Mar1,2012, IKHSS6-11814 -->
-    <permission name="android.permission.NET_RAW" >
-        <group gid="net_raw" />
-    </permission>
-    <!-- END MOTO, IKHSS6-11814 -->
 
     <!-- The group that /cache belongs to, linked to the permission
          set on the applications that can access /cache -->
@@ -125,11 +123,6 @@
     <assign-permission name="android.permission.ACCESS_FINE_LOCATION" uid="shell" />
     <assign-permission name="android.permission.ACCESS_COARSE_LOCATION" uid="shell" />
     <assign-permission name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" uid="shell" />
-    <!-- BEGIN MOT ICS UPMERGE, ptmn68, 11/21/2011 -->
-    <!-- BEGIN Motorola, rjones1, 10/22/10, IKLOCSEN-25 Verizon LBS API -->
-    <assign-permission name="com.vzw.location.ACCESS_GPS_PERMISSION" uid="shell" />
-    <!-- END IKLOCSEN-25 -->
-    <!-- END MOT ICS UPMERGE-->
     <assign-permission name="android.permission.ACCESS_NETWORK_STATE" uid="shell" />
     <assign-permission name="android.permission.ACCESS_WIFI_STATE" uid="shell" />
     <assign-permission name="android.permission.BLUETOOTH" uid="shell" />
@@ -169,6 +162,12 @@
     <assign-permission name="android.permission.BACKUP" uid="shell" />
     <assign-permission name="android.permission.FORCE_STOP_PACKAGES" uid="shell" />
     <assign-permission name="android.permission.STOP_APP_SWITCHES" uid="shell" />
+    <assign-permission name="android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY" uid="shell" />
+    <assign-permission name="android.permission.SET_KEYBOARD_LAYOUT" uid="shell" />
+    <assign-permission name="android.permission.GET_DETAILED_TASKS" uid="shell" />
+    <assign-permission name="android.permission.SET_SCREEN_COMPATIBILITY" uid="shell" />
+    <assign-permission name="android.permission.READ_EXTERNAL_STORAGE" uid="shell" />
+    <assign-permission name="android.permission.WRITE_EXTERNAL_STORAGE" uid="shell" />
 
     <assign-permission name="android.permission.MODIFY_AUDIO_SETTINGS" uid="media" />
     <assign-permission name="android.permission.ACCESS_DRM" uid="media" />
@@ -177,56 +176,16 @@
 
     <assign-permission name="android.permission.ACCESS_SURFACE_FLINGER" uid="graphics" />
 
-    <!-- BEGIN MOT ICS UPMERGE, ptmn68, 11/21/2011 -->
-    <assign-permission name="android.permission.SEND_SMS" uid="mot_tcmd" />
-    <!-- BEGIN Motorola, cvk011c, 04/12/2011, IKSTABLEFOURV-3634 -->
-    <assign-permission name="android.permission.INJECT_EVENTS" uid="mot_tcmd" />
     <!-- BEGIN Motorola, txdr78, 01/19/2012 IKHSS6-2682 -->
     <assign-permission name="android.permission.ACCESS_SURFACE_FLINGER" uid="mot_tcmd"/>
-    <!-- IKSTABLEFOURV-3634 -->
     <!-- This is a list of all the libraries available for application
          code to link against. -->
 
-    <!-- Moto: This is a list of Motorola specific libraries available for application
-         code to link against. -->
-    <library name="com.motorola.android.mediasync"
-             file="/system/framework/com.motorola.android.mediasync.jar"/>
-    <!-- BEGIN Motorola, bjtx47, 09/12/2010, IKMAIN-4209 -->
-    <library name="com.motorola.android.rdc.util"
-             file="/system/framework/com.motorola.android.rdc.util.jar"/>
-    <!-- END IKMAIN-4209 -->
-    <library name="com.motorola.android.image"
-             file="/system/framework/com.motorola.android.image.jar"/>
-    <library name="com.motorola.android.camera"
-             file="/system/framework/com.motorola.android.camera.jar"/>
-    <library name="com.motorola.android.frameworks"
-             file="/system/framework/com.motorola.android.frameworks.jar" />
-    <library name="com.motorola.android.mediasync"
-             file="/system/framework/com.motorola.android.mediasync.jar"/>
-    <library name="com.motorola.android.mime"
-             file="/system/framework/com.motorola.android.mime.jar" />
-    <library name="com.motorola.android.telephony"
-             file="/system/framework/com.motorola.android.telephony.jar" />
-    <library name="com.motorola.android.widget"
-             file="/system/framework/com.motorola.android.widget.jar"/>
-    <library name="libvsapi"
-             file="/system/framework/libvsapi.jar"/>
-    <!-- BEGIN Motorola, a5705c, 07/15/2010, IKMAIN-942 -->
-    <library name="guava"
-             file="/system/framework/guava.jar"/>
-    <!-- END IKMAIN-942 -->
-    <!-- END MOT ICS UPMERGE -->
-    <!-- BEGIN Motorola, w20580, 01/28/2011, IKSTABLEFOURV-538 -->
-    <library name="com.motorola.atcmd.base"
-             file="/system/framework/com.motorola.atcmd.base.jar"/>
-    <library name="com.motorola.atcmd.pluginMgr"
-             file="/system/framework/com.motorola.atcmd.pluginMgr.jar"/>
-    <!-- END IKSTABLEFOURV-538 -->
     <library name="android.test.runner"
-             file="/system/framework/android.test.runner.jar" />
+            file="/system/framework/android.test.runner.jar" />
     <library name="javax.obex"
-             file="/system/framework/javax.obex.jar"/>
-    <library name="com.motorola.android.frameworks"
-            file="/system/framework/com.motorola.android.frameworks.jar" />
+            file="/system/framework/javax.obex.jar"/>
+    <library name="javax.btobex"
+            file="/system/framework/javax.btobex.jar"/>
 
 </permissions>

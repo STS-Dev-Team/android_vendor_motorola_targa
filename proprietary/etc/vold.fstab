@@ -23,9 +23,9 @@
 ######################
 
 # external sd card
-dev_mount sdcard-ext /mnt/sdcard-ext:none:lun1 auto /devices/platform/goldfish_mmc.0 /devices/platform/omap/omap_hsmmc.0/mmc_host/mmc0
+dev_mount sdcard-ext /storage/sdcard1:none:lun1 auto /devices/platform/omap/omap_hsmmc.0/mmc_host/mmc0
 # internal eMMC
-dev_mount sdcard /mnt/sdcard:: 26 /devices/platform/omap/omap_hsmmc.1/mmc_host/mmc1
+dev_mount sdcard /storage/sdcard0:: 26 /devices/platform/omap/omap_hsmmc.1/mmc_host/mmc1
 
 ## Example of a dual card setup
 # dev_mount left_sdcard  /sdcard1  auto /devices/platform/goldfish_mmc.0 /devices/platform/msm_sdcc.2/mmc_host/mmc1
@@ -36,11 +36,11 @@ dev_mount sdcard /mnt/sdcard:: 26 /devices/platform/omap/omap_hsmmc.1/mmc_host/m
 
 
 # flash drive connection through hub connected to USB3
-dev_mount usbdisk_1.1.1 /mnt/usbdisk_1.1.1 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.1.1
-dev_mount usbdisk_1.1 /mnt/usbdisk_1.1 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.1
-dev_mount usbdisk_1.2 /mnt/usbdisk_1.2 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.2
-dev_mount usbdisk_1.3 /mnt/usbdisk_1.3 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.3
-dev_mount usbdisk_1.4 /mnt/usbdisk_1.4 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.4
-dev_mount usbdisk_1.5 /mnt/usbdisk_1.5 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.5
-dev_mount usbdisk_1.6 /mnt/usbdisk_1.6 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.6
-dev_mount usbdisk_1.7 /mnt/usbdisk_1.7 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.7
+dev_mount usbdisk_1.1.1 /storage/usbdisk_1.1.1 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.1.1
+dev_mount usbdisk_1.1 /storage/usbdisk_1.1 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.1
+dev_mount usbdisk_1.2 /storage/usbdisk_1.2 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.2
+dev_mount usbdisk_1.3 /storage/usbdisk_1.3 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.3
+dev_mount usbdisk_1.4 /storage/usbdisk_1.4 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.4
+dev_mount usbdisk_1.5 /storage/usbdisk_1.5 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.5
+dev_mount usbdisk_1.6 /storage/usbdisk_1.6 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.6
+dev_mount usbdisk_1.7 /storage/usbdisk_1.7 auto /devices/platform/omap/musb-omap2430/musb-hdrc/usb3/3-1/3-1.7

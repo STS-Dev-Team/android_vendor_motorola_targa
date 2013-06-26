@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<permissions>
-    <!-- Declares the feature name for ContextEngine -->
-    <feature name="com.motorola.situation.library" />
-</permissions>

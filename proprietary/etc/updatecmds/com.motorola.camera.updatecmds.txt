@@ -1,0 +1,15 @@
+# Migrate data to the new package from the old one
+com.motorola.camera:com.motorola.Camera
+    cache
+
+com.motorola.camera:com.motorola.Camera
+    databases
+
+com.motorola.camera:com.motorola.Camera
+    shared_prefs
+
+com.motorola.camera:com.motorola.Camera
+    files
+
+com.motorola.camera:com.motorola.Camera
+    lib

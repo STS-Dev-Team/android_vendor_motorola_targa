@@ -1,0 +1,29 @@
+﻿##===================================================================
+##
+##    Vocalizer for Mobile
+##
+##    (c) 2008 Nuance Communications, Inc. All rights reserved.
+##
+##    Nuance, the Nuance logo and Vocalizer are trademarks and/or
+##    registered trademarks of Nuance Communications, Inc. or its
+##    affiliates in the United States and/or other countries.
+##
+##===================================================================
+
+[header]
+
+# 3-letter language code as used in user dictionaries
+language = ENU
+[data]
+
+##-------------------------------------------------------------------
+##  Fix pronunciation mistakes
+##-------------------------------------------------------------------
+
+# Phonetic replacement, note the escaped phoneme '$'
+/Verizon/ --> "\x1b/+vE0'R+a&I.zOn\x1b/+"
+/Readout/ --> "\x1b/+R+id.a&Ut\x1b/+"
+/readout/ --> "\x1b/+R+id.a&Ut\x1b/+"
+/READOUT/ --> "\x1b/+R+id.a&Ut\x1b/+"
+/reads/ --> "\x1b/+R+idz\x1b/+"
+/[mM][oO][tT][oO][aA][cC][tT][vV]/ --> "Moto A C T V"

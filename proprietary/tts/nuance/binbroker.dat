@@ -1,0 +1,1269 @@
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Hong Kong Cantonese/sin-ji/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Hong Kong Cantonese</language>
+    <langcode>CAH</langcode>
+    <langid>30</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Sin-Ji</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Sin-Ji</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <FE_UDWL>fe/fe_udwl</FE_UDWL>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/cah
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Australian English/karen/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Australian English</language>
+    <langcode>ENA</langcode>
+    <langid>20</langid>
+    <langversion>5.2.3.11252</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Karen</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Karen</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/ena
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/British English/emily/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>British English</language>
+    <langcode>ENG</langcode>
+    <langid>1</langid>
+    <langversion>5.2.3.11252</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Emily</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Emily</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/eng
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/American English/samantha/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>American English</language>
+    <langcode>ENU</langcode>
+    <langid>10</langid>
+    <langversion>5.2.3.11252</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Samantha</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Samantha</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/enu
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Finnish/mikko/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3101</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Finnish</language>
+    <langcode>FIF</langcode>
+    <langid>9</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Mikko</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Male</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Mikko</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/fif
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Canadian French/julie/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Canadian French</language>
+    <langcode>FRC</langcode>
+    <langid>51</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Julie</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Julie</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/frc
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/French/virginie/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>French</language>
+    <langcode>FRF</langcode>
+    <langid>2</langid>
+    <langversion>5.2.3.11126</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Virginie</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Virginie</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/frf
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/German/steffi/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>German</language>
+    <langcode>GED</langcode>
+    <langid>3</langid>
+    <langversion>5.2.3.11126</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Steffi</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Steffi</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/ged
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Italian/silvia/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Italian</language>
+    <langcode>ITI</langcode>
+    <langid>5</langid>
+    <langversion>5.2.3.11126</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Silvia</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Silvia</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/iti
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Japanese/kyoko/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Japanese</language>
+    <langcode>JPJ</langcode>
+    <langid>32</langid>
+    <langversion>5.2.3.11252</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Kyoko</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Kyoko</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <FE_UDWL>fe/fe_udwl</FE_UDWL>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/jpj
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Korean/narae/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Korean</language>
+    <langcode>KOK</langcode>
+    <langid>65</langid>
+    <langversion>5.2.3.11126</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Narae</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Narae</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/kok
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Chinese Mandarin/ting-ting/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Chinese Mandarin</language>
+    <langcode>MNC</langcode>
+    <langid>31</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Ting-Ting</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <noclmset>enu,eng</noclmset>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Ting-Ting</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+    <tokentnnumframesinblock>50</tokentnnumframesinblock>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <FE_UDWL>fe/fe_udwl</FE_UDWL>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_wordseg</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/mnc
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Taiwanese Mandarin/ya-ling/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Taiwanese Mandarin</language>
+    <langcode>MNT</langcode>
+    <langid>29</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Ya-Ling</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Ya-Ling</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <FE_UDWL>fe/fe_udwl</FE_UDWL>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/mnt
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Brazilian Portuguese/raquel/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Brazilian Portuguese</language>
+    <langcode>PTB</langcode>
+    <langid>76</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Raquel</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Raquel</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/ptb
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Portuguese/joana/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Portuguese</language>
+    <langcode>PTP</langcode>
+    <langid>13</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Joana</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Joana</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/ptp
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Russian/milena/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Russian</language>
+    <langcode>RUR</langcode>
+    <langid>16</langid>
+    <langversion>5.2.3.11252</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Milena</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Milena</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/rur
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Spanish/monica/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Spanish</language>
+    <langcode>SPE</langcode>
+    <langid>4</langid>
+    <langversion>5.2.3.11252</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Monica</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Monica</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/spe
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>
+<?xml version="1.0"?>
+<NUANCE>
+<VERSION>NUAN_1.0</VERSION>
+<HEADER>
+  <BROKERSTRING>pipeline/Mexican Spanish/paulina/16/bet2/text/pcm</BROKERSTRING>
+  <PRIORITY>3102</PRIORITY>
+  <PARAMETERS>
+    <bet2voiceoverride.BREAKMAXDUR>1000</bet2voiceoverride.BREAKMAXDUR>
+    <bet2voiceoverride.ORDER>12</bet2voiceoverride.ORDER>
+    <language>Mexican Spanish</language>
+    <langcode>SPM</langcode>
+    <langid>83</langid>
+    <langversion>5.2.3.11119</langversion>
+    <nativetypeofchar>utf-16</nativetypeofchar>
+    <voice>Paulina</voice>
+    <voiceversion>5.2.3.11119</voiceversion>
+    <gender>Female</gender>
+    <age>Adult</age>
+    <fecfg>cfg1</fecfg>
+    <fedataprefix></fedataprefix>
+    <fedatapackaging>clc</fedatapackaging>
+    <fevoice>Paulina</fevoice>
+    <frequencyhz>16000</frequencyhz>
+    <voicemodel>bet2</voicemodel>
+    <reduction></reduction>
+    <coder></coder>
+    <bitrate></bitrate>
+    <overheadframes></overheadframes>
+    <audiooutputmimetype>audio/L16;rate=16000</audiooutputmimetype>
+    <audiooutputsamplebits>16</audiooutputsamplebits>
+    <bet2voicequality>med</bet2voicequality>
+  </PARAMETERS>
+  <OBJECTS>
+    <DCTEG>dcteg</DCTEG>
+    <FE_DCTLKP>fe/fe_dctlkp</FE_DCTLKP>
+    <FE_DEPES>fe/fe_depes</FE_DEPES>
+    <INET>inetspi</INET>
+    <PHONMAP>phonmap</PHONMAP>
+  </OBJECTS>
+  <COMPONENTS>
+    <COMPONENT>xcoder</COMPONENT>
+    <COMPONENT>ttt/re</COMPONENT>
+    <COMPONENT>pp/text</COMPONENT>
+    <COMPONENT>fe/fe_lid</COMPONENT>
+    <COMPONENT>fe/fe_udwl</COMPONENT>
+    <COMPONENT>fe/fe_clcml</COMPONENT>
+    <COMPONENT>fe/fe_unixlit</COMPONENT>
+    <COMPONENT>fe/fe_initlingdb</COMPONENT>
+    <COMPONENT>fe/tokentn</COMPONENT>
+    <COMPONENT>fe/fe_abbrtn</COMPONENT>
+    <COMPONENT>fe/fe_puncsptn</COMPONENT>
+    <COMPONENT>fe/fe_oneword</COMPONENT>
+    <COMPONENT>fe/fe_pos</COMPONENT>
+    <COMPONENT>fe/fe_hmogrph</COMPONENT>
+    <COMPONENT>fe/fe_phrasing</COMPONENT>
+    <COMPONENT>fe/fe_normout</COMPONENT>
+    <COMPONENT>fe/fe_global</COMPONENT>
+    <COMPONENT>fe/fe_deinitlingdb</COMPONENT>
+    <COMPONENT>select/bet2</COMPONENT>
+    <COMPONENT>synth/bet2</COMPONENT>
+    <COMPONENT>phonmap/mrk</COMPONENT>
+    <COMPONENT>xcoder/mrksync</COMPONENT>
+  </COMPONENTS>
+  <RESOURCES>
+    <!-- The next entry specifies a broker string for the user dict -->
+    <RESOURCE content-type="application/edct-bin-dictionary;loader=broker">
+      userdct/spm
+    </RESOURCE>
+  </RESOURCES>
+</HEADER>
+</NUANCE>

@@ -21,11 +21,20 @@
     fallback fonts. That file can also specify the order in which the fallback fonts should be
     searched, to ensure that a vendor-provided font will be used before another fallback font
     which happens to handle the same glyph.
+
+    Han languages (Chinese, Japanese, and Korean) share a common range of unicode characters;
+    their ordering in the fallback or vendor files gives priority to the first in the list.
+    Locale-specific ordering can be configured by adding language and region codes to the end
+    of the filename (e.g. /system/etc/fallback_fonts-ja.xml). When no region code is used,
+    as with this example, all regions are matched. Use separate files for each supported locale.
+    The standard fallback file (fallback_fonts.xml) is used when a locale does not have its own
+    file. All fallback files must contain the same complete set of fonts; only their ordering
+    can differ.
 -->
 <familyset>
     <family>
         <fileset>
-            <file>DroidNaskh-Regular.ttf</file>
+            <file>DroidNaskh-Regular-SystemUI.ttf</file>
         </fileset>
     </family>
     <family>
@@ -56,7 +65,18 @@
     </family>
     <family>
         <fileset>
-            <file>Lohit-Devanagari.ttf</file>
+            <file>DroidSansDevanagari-Regular.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>DroidSansTamil-Regular.ttf</file>
+            <file>DroidSansTamil-Bold.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>AnjaliNewLipi-light.ttf</file>
         </fileset>
     </family>
     <family>
@@ -66,12 +86,27 @@
     </family>
     <family>
         <fileset>
-            <file>Lohit-Tamil.ttf</file>
+            <file>Lohit-Kannada.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>Lohit-Telugu.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>AndroidEmoji.ttf</file>
         </fileset>
     </family>
     <family>
         <fileset>
             <file>DroidSansFallback.ttf</file>
+        </fileset>
+    </family>
+    <family>
+        <fileset>
+            <file>MTLmr3m.ttf</file>
         </fileset>
     </family>
 </familyset>
